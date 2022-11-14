@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="screen">
+                
+                <input id="calcscreen" type="text" value="0">
+                
+            </div>
+            <div class="grid-container">
+                <div class="item" id="clear" onclick="acclearscreen()">AC</div>
+                <div class="item" id="negative" onclick="negative()">+/-</div>
+                <div class="item" id="percent" onclick="percentage()">%</div>
+                <div class="item" id="division" onclick="division()">÷</div>
+                <div class="item" id="7" onclick="input(7)">7</div>
+                <div class="item" id="8" onclick="input(8)">8</div>
+                <div class="item" id="9" onclick="input(9)">9</div>
+                <div class="item" id="multiplication" onclick="multiplication()">X</div>
+                <div class="item" id="4" onclick="input(4)">4</div>
+                <div class="item" id="5" onclick="input(5)">5</div>
+                <div class="item" id="6" onclick="input(6)">6</div>
+                <div class="item" id="subtraction" onclick="subtraction()">-</div>
+                <div class="item" id="1" onclick="input(1)">1</div>
+                <div class="item" id="2" onclick="input(2)">2</div>
+                <div class="item" id="3" onclick="input(3)">3</div>
+                <div class="item" id="addition" onclick="addition()">+</div>
+                <div class="item" id="zero" onclick="input(0)">0</div>
+                <div class="item" id="decimal" onclick="input('.')">.</div>
+                <div class="item" id="equals" onclick="screenequals()">=</div>
+            </div>  
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
