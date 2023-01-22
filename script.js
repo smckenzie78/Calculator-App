@@ -9,13 +9,11 @@ function acclearscreen(){
 }
 
 function input(value1){
-        if(firstInput==true || screen.value==''){
-            acclearscreen();
-            firstInput = false;
-        }
-        if(!isNaN(value1)){
-            screen.value = screen.value + value1;
-        }
+    if(firstInput==true || screen.value==''){
+        acclearscreen();
+        firstInput = false;
+    }
+    screen.value = screen.value + value1;
 }
 
 
